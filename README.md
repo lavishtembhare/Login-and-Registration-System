@@ -5,6 +5,8 @@ C++ Login and Registration System
 This project is a simple C++ console application for a login and registration system. It allows users to register with a username and password and login with their credentials. User credentials are stored in individual text files for each user.
 
 Features
+
+
 Registration: Users can register with a unique username and password. Each user's credentials are stored in a separate file named after the username.
 
 Login: Users can log in using their username and password. The system validates credentials against the stored data.
@@ -18,26 +20,31 @@ To compile and run this project, you need a C++ compiler that supports C++17 or 
 Compilation
 To compile the project, use a C++ compiler like g++. Open a terminal and run the following command:
 
-bash
-Copy code
 g++ login_registration_system.cpp -o login_registration_system
+
+
 Running the Program
 After compilation, you can run the executable:
 
-bash
-Copy code
 ./login_registration_system
+
+
 Usage
+
 Register a New User:
 
 Choose the "Register" option from the menu.
 Enter a unique username and a password.
 If the username does not already exist, a file will be created with the username, and the password will be stored in it.
+
+
 Login with Existing User:
 
 Choose the "Login" option from the menu.
 Enter your username and password.
 If the credentials are correct, you will be logged in successfully.
+
+
 Exit the Program:
 
 Choose the "Exit" option from the menu to quit the program.
